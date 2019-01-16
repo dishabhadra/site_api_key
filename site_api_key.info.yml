@@ -1,0 +1,8 @@
+name: Site API Key
+type: module
+description: 'This module alters Drupal Site Information Page & Provides URL that shows JSON representation of a given node.'
+core: 8.x
+package: Axelerant
+configure: system.site_information_settings
+dependencies:
+  - drupal:system

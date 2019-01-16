@@ -1,0 +1,18 @@
+{
+    "name": "drupal/site_key_api",
+    "description": "This module alters Drupal Site Information Page & Provides URL that shows JSON representation of a given node.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/u/dishabhadra",
+    "authors": [
+        {
+            "name": "Disha Bhadra (dishabhadra)",
+            "homepage": "https://www.drupal.org/u/dishabhadra",
+            "role": "Drupal Developer"
+        }
+    ],
+    "support": {
+        "email": "dishasbhadra2013@gmail.com",
+        "issues": "https://github.com/dishabhadra/site_api_key/issues"
+    },
+    "license": "GPL-2.0+"
+}

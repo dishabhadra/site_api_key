@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Used to uninstall configuration variable.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function site_api_key_uninstall() {
+  $config = \Drupal::configFactory()->getEditable('system.site');
+  $config->clear('siteapikey');
+  $config->save();
+}
