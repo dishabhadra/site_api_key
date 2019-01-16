@@ -19,7 +19,7 @@ in "Site Information" form which can be found at the path
 given node of "page" content type, Provided the correct "Site API Key" is 
 entered in the URL.
 
-Example URL : http://example.com/page_json/{Site API Key}/{Node ID}
+Example URL : http://example.com/page_json/site_api_key/node_id
  
 Requirements
 ------------
@@ -58,4 +58,4 @@ https://www.drupal.org/docs/8/api/routing-system/using-parameters-in-routes
 Total time
 ----------
 
-I took around 5 hours to build this module.
+It took me around 5 hours to build this module.
